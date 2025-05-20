@@ -264,7 +264,30 @@ margin-top: 0;
 .format-text{
     font-size: 14px;
     font-weight: 300px;
-}
+    }
+     /*Carousel*/
+.carousel-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid var(--color-primary-dark);
+    cursor: pointer;
+ }
+.carousel-arrow{
+    fill:var(--color-primary-dark);
+ }
+
+.carousel-button:hover{
+    background-color:var(--color-primary-dark);
+ }
+.carousel-button:hover .carousel-arrow{
+     color: var(--color-primary-light);
+ }
 /*Contact section*/
 .Contact-title{
     margin-bottom: 16px;
@@ -282,6 +305,11 @@ margin-top: 0;
     color: var(--color-brand-normal);
 }
 
+.address-icon{
+    fill: var(--color-primary-light)
+    
+
+}
 .address-copyr{
     font-size: 14px;
 }
@@ -291,4 +319,5 @@ margin-top: 0;
     background-repeat: no-repeat;
     background-position: cover;
     background-position: center;
+    background-size: cover;
 }
